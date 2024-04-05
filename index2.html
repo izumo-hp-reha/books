@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--
+Document Title
+=============================================
+-->
+<title>Result</title>
+
+<style>
+body, input {font-size:14pt;
+             margin: 20px 5px;
+             text-align: center;
+             }
+input, label {vertical-align:middle}
+form{
+  text-align: center;
+  margin-top: 50px;
+}
+a{
+font-size:40px;
+}
+span{
+font-size:50px;
+}
+</style>
+</head>
+<!--html-->
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+<span><?=name?></span>を記録しました。
+<p><span><?=times?>回目の記録です</span></p>
+<img src="<?=image?>">
+      <a href="読み取り画面URL" target="blank"><div class="btn">バーコードリーダーに戻る</div></a>      
+</body>
+</html>
